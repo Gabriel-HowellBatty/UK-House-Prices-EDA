@@ -1,0 +1,22 @@
+# Ignore raw data files
+data/raw/
+
+# Ignore large CSV/TXT by default
+*.csv
+*.txt
+
+# Allow small processed CSVs if you want
+!data/processed/*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual envs
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
